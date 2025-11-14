@@ -41,6 +41,11 @@ python setup.py develop
 CUDA_VISIBLE_DEVICES=0 python examples/run_streaming_llama.py  --enable_streaming
 ```
 
+## Diagrams
+
+- Architecture overview: `docs/ARCHITECTURE.md`
+- Dataflow diagrams: `docs/DATAFLOW.md`
+
 ## FAQ
 
 1. **What does "working on infinite-length inputs" imply for LLMs?**
